@@ -1,16 +1,15 @@
 ---
-layout: default
-title: "Hadoop 설치"
+title: Hadoop 설치
 date: 2013-01-30 14:17:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  
-tags: [Hadoop, 설치]
+tags:
+  - Hadoop
+  - 설치
 ---
 1. Hadoop 다운로드
 http://apache.tt.co.kr/hadoop/common/hadoop-2.0.2-alpha/hadoop-2.0.2-alpha.tar.gz
 2.0.2 Alpha 버전 기준이므로 알맞은 버전을 다운로드 하여 설치하면 됩니다.
 
-2.  tar 압축 해제
+2.  tar 압축 해제 
 전 ~/app 폴더를 생성하여 그 하위에 압축을 풀었습니다.
 `$ tar xvzf hadoop-2.0.2-alpha.tar.gz`
 
@@ -31,7 +30,7 @@ From source with checksum efbdb59af73bfc103f1945d65dbf3071
 ```
 
 4. Hadoop 환경 설정 (설정 파일 위치 : $HADOOP_HOME/etc/hadoop)
-core-site.xml
+ core-site.xml
 ```xml
 <configuration>
         <property>
@@ -40,7 +39,6 @@ core-site.xml
         </property>
 </configuration>
 ```
-
 hdfs-site.xml
 네임노드, 보조네임노드, 데이타노드 와 같이 hdfs 의 데몬을 위한 환경을 설정하는 파일 입니다.
 ```xml
@@ -61,7 +59,6 @@ hdfs-site.xml
         </property>
 </configuration>
 ```
-
 mapred-site.xml
 jobtracker 와 tasktracker 와 같은 데몬을 위한 환경 설정 파일
 ```xml

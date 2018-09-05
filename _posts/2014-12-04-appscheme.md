@@ -1,8 +1,6 @@
 ---
-layout: default
 title: "Mobile Web에서 APP 설치 여부 판단"
 date: 2014-12-04 13:58:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  
 tags: [app, intent, scheme]
 ---

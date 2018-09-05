@@ -1,8 +1,6 @@
 ---
-layout: default
 title: "Maven 기본 명령어"
 date: 2013-01-30 17:47:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  
 tags: [Maven, 명령어]
 ---

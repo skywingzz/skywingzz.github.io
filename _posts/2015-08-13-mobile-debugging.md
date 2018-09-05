@@ -1,8 +1,6 @@
 ---
-layout: default
 title: "Mobile 디버깅 방법 "
 date: 2015-08-13 09:25:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  
 tags: [mobile, debugging, Weinre, fiddler, charles]
 ---
