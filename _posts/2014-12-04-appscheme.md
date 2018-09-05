@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: default
 title: "Mobile Web에서 APP 설치 여부 판단"
 date: 2014-12-04 13:58:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  
 tags: [app, intent, scheme]
-categories: [Java]
 ---
 
 우리가 일반적으로 사용하는 빈 iframe 에 app url을 날려봐서 요청이 없으면 timeout 으로 store url로 보내는 방식은
