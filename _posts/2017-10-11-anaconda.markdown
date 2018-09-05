@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Anaconda 설치 및 환경 셋팅"
+date: 2017-11-07 15:59:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img:  
+tags: [anaconda]
+---
+### 아나콘다 다운로드 
+https://www.anaconda.com/download/#macos
+
+### 콘다 가상환경 리스트
+```shell
+conda info --evn
+```
+
+### 콘다 가상환경 생성
+`conda create --name exam2 python=3.6 anaconda`
+
+### 가상환경 스위치
+`source activate exam2`
+
+### conda tensorflow install
+`conda install tensorflow`
