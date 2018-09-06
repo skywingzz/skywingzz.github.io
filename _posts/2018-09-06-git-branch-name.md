@@ -4,7 +4,7 @@ date: 2018-09-06 17:09:00 +0300
 tags: [Git, Tip]
 ---
 
-###터미널에서 여러 Git Repository 를 관리할때 브랜치명을 폴더명 옆에 같이 보여주면 좋을 것 같아 찾아보다
+### 터미널에서 여러 Git Repository 를 관리할때 브랜치명을 폴더명 옆에 같이 보여주면 좋을 것 같아 찾아보다
 아래 Python 프로그램 설치 후 손쉽게 사용 할 수 있었다.
 - 참고 자료 : https://github.com/MichaelKim0407/mk-ls-git
 
