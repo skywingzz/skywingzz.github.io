@@ -1,6 +1,7 @@
 ---
 title: Tomcat jsp 컴파일 오류, jsp 라인수 제한
 date: 2012-12-06 18:09:00 +0300
+categories: [Tomcat]
 tags: [Tomcat, JSP, 오류]
 ---
 

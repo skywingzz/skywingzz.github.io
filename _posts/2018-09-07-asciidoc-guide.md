@@ -1,6 +1,7 @@
 ---
 title: Asciidoc 설치 방법
 date: 2018-09-07 10:30:00 +0300
+categories: [기타]
 tags: [Java, Heap Dump]
 ---
 

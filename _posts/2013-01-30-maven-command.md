@@ -1,7 +1,7 @@
 ---
 title: "Maven 기본 명령어"
 date: 2013-01-30 17:47:00 +0300
-img:  
+categories: [Maven]
 tags: [Maven, 명령어]
 ---
 

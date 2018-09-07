@@ -1,6 +1,7 @@
 ---
 title: Start Mahout
 date: 2013-01-28 17:22:00 +0300
+categories: [Machine Learning]
 tags: [Mahout, 추천, 설치]
 ---
 

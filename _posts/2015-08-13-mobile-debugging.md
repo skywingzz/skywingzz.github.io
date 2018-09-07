@@ -1,7 +1,7 @@
 ---
 title: "Mobile 디버깅 방법 "
 date: 2015-08-13 09:25:00 +0300
-img:  
+categories: [Mobile]
 tags: [mobile, debugging, Weinre, fiddler, charles]
 ---
 

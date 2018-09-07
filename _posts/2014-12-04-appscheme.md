@@ -1,7 +1,7 @@
 ---
 title: "Mobile Web에서 APP 설치 여부 판단"
 date: 2014-12-04 13:58:00 +0300
-img:  
+categories: [Mobile]
 tags: [app, intent, scheme]
 ---
 

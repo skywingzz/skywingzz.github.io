@@ -1,7 +1,7 @@
 ---
 title: "requestIdleCallback"
 date: 2016-05-23 11:35:00 +0300
-img:  
+categories: [Javascript]
 tags: [docker, shell, install]
 ---
 

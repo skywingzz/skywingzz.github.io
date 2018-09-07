@@ -1,6 +1,7 @@
 ---
 title: Hadoop 설치
 date: 2013-01-30 14:17:00 +0300
+categories: [Hadoop]
 tags:
   - Hadoop
   - 설치

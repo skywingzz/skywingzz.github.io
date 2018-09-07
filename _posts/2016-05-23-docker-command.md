@@ -1,6 +1,7 @@
 ---
 title: "docker 기본 명령어"
 date: 2016-05-23 11:35:00 +0300
+categories: [Docker]
 tags: [docker, shell, install]
 ---
 

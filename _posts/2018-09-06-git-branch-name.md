@@ -1,6 +1,7 @@
 ---
 title: 디렉토리 list 에 git branch명 보이기
 date: 2018-09-06 17:09:00 +0300
+categories: [Git]
 tags: [Git, Tip]
 ---
 

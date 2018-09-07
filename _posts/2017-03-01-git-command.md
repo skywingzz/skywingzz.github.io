@@ -1,6 +1,7 @@
 ---
 title: Git 명령어
 date: 2017-03-01 14:17:00 +0300
+categories: [Git]
 tags: [Git, 명령어]
 ---
 
