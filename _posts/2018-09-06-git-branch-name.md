@@ -9,8 +9,10 @@ tags: [Git, Tip]
 - 참고 자료 : https://github.com/MichaelKim0407/mk-ls-git
 
 ### Multi 로 Git명령어를 보낼때 (.bash_profile 에 등록하여 사용)
-    gitm='ls | xargs -P10 -I{} git -C {}'
-    
-    # 사용
-    gitm pull #전체 폴더에 존재하는 전체 Repository 에 pull 명령어를 보냄
+```shell
+gitm='ls | xargs -P10 -I{} git -C {}'
+
+#전체 폴더에 존재하는 전체 Repository 에 pull 명령어를 보냄
+gitm pull 
+```
 ![](/assets/images/git-multi-llg.png)
