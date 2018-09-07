@@ -5,11 +5,18 @@ categories: [기타]
 tags: [Java, Heap Dump]
 ---
 
+요즘 개발 분서를 작성할 때 markdown 으로 많이 작성을 하지만 좀 더 구조화 되고 멋있게? 작성 할 필요가 있을 때
+한계가 있다. 이것 저것 찾아 보던 중... 
+asciiDoc 이란 녀석을 발견...
+
 ## 설치
 설치는 간단하다.
-mac 일경우 homebrew 로 아래와 같이 설치
 ```shell
+# brew
 brew install asciidoc
+
+# gem
+gem install asciidoc
 ```
 
 ## Build
@@ -36,3 +43,7 @@ asciidoctor -a toc README.adoc
     내용
 ```
 ![](/assets/images/asciidoc-screenshot.png)
+
+
+## 참고
+- 사용자 가이드 : http://asciidoc.org/userguide.html
