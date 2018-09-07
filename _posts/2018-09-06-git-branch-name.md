@@ -13,4 +13,4 @@ tags: [Git, Tip]
     
     # 사용
     gitm pull #전체 폴더에 존재하는 전체 Repository 에 pull 명령어를 보냄
-   
+![](/assets/images/git-multi-llg.png)
