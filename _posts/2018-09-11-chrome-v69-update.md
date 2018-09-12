@@ -1,28 +1,29 @@
 ---
-title: Heap memory dump
-date: 2012-12-05 15:50:00 +0300
-categories: [JAVA]
-tags: [Java, Heap Dump]
+title: Chrome 69 달라진점
+date: 2018-09-11 19:23:00 +0300
+categories: [Chrome]
+tags: [Chrome, Update]
 ---
+Chrome 버전이 69로 업데이트 되면서 UI 의 변화가 많이 있었다.
+기능적인 변화는 아래에...
+자세한 내용은 나중에...
 
-### pid 확인
-```shell
-ps –ef | grep java
-```
+1. New "Material Design" Theme
 
-### heap 상태 확인
-```shell
-jmap –heap [pid]
-```
+2. Colorful Backgrounds for the New Tab Page
 
-### 클래스별 객체수와 메모리 사용량 확인
-```shell
-jmap -histo [pid] | more
-```
+3. Custom Shortcuts on the New Tab Page
 
-### Heap dump 파일 생성
-```shell
-jmap –heap:format=b [pid]
-```
+4. Password Generator and Autofill Improvements
 
-**생성된 덤프 파일을 MAT 등을 통하여 분석**
+5. The Omnibox Powers Up
+
+6. Easy Access to Search on Mobile
+
+7. The “Secure” Indicator is Gone
+
+8. CSS Scroll Snap
+
+9. Display cutouts(aka notches)
+
+10. Web Locks API
