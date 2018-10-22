@@ -1,6 +1,6 @@
 ---
 title: Web Test With Selenium
-date: 2018-09-18 14:58:00 +0300
+date: 2018-10-19 14:58:00 +0300
 tags: [Selenium, Auto Test]
 ---
 
