@@ -1,6 +1,6 @@
 ---
 title: Hive Query Options
-date: 2018-09-18 14:58:00 +0300
+date: 2018-10-19 16:30:00 +0300
 tags: [Hive, HDFS, Query]
 ---
 
