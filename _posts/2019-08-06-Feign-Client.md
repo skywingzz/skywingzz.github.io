@@ -1,6 +1,6 @@
 ---
 title: Feign Client Config 중복 사용
-date: 2018-08-06 18:40:00 +0300
+date: 2019-08-06 18:40:00 +0300
 categories: [JAVA, Feign]
 tags: [Java, Spring-boot, Feign]
 ---
