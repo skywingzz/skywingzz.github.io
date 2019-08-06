@@ -9,9 +9,9 @@ tags: [Java, Spring-boot, Feign]
 Feign Client 를 동일 Config 를 사용하고 서비스별로 Class 를 분리하고자 한다.
 
 ## 오류
-아래와 같이 동일 name 으로 지정 했더니 오류 발생
-```
-@FeignClient(name = "feignClient", contextId = "feignClientForMall", fallbackFactory = FeignClientForMallFallbackFactory.class)
+아래와 같이 동일 name 으로 두개의 class 에서 지정 했더니 오류 발생
+```java
+@FeignClient(name = "feignClient" fallbackFactory = FeignClientForMallFallbackFactory.class)
 ```
 
 Spring boot 2.1 부터 bean name 중복 등록시 아래와 같이 오류 발생
@@ -28,6 +28,6 @@ spring.main.allow-bean-definition-overriding=true
 
 ## 해결
 Feign Client Config 에 ContextId 가 중복되지 않게 명시적으로 지정한다.
-```
+```java
 @FeignClient(name = "feignClient", contextId = "feignClientForMall", fallbackFactory = FeignClientForMallFallbackFactory.class)
 ```
