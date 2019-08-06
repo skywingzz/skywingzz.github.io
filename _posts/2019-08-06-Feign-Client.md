@@ -5,13 +5,12 @@ categories: [JAVA, Feign]
 tags: [Java, Spring-boot, Feign]
 ---
 
-# FeignClient name 설정 문제
 ## 목적
 Feign Client 를 동일 Config 를 사용하고 서비스별로 Class 를 분리하고자 한다.
 
 ## 오류
 아래와 같이 동일 name 으로 지정 했더니 오류 발생
-```JAVA
+```
 @FeignClient(name = "feignClient", contextId = "feignClientForMall", fallbackFactory = FeignClientForMallFallbackFactory.class)
 ```
 
@@ -21,7 +20,7 @@ The bean ‘dp.FeignClientSpecification’, defined in null, could not be regist
 ```
 
 이 오류를 무시 하도록 하여 설정 할 수 있다.
-```JAVA
+```
 spring.main.allow-bean-definition-overriding=true
 ```
 
