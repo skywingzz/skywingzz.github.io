@@ -5,7 +5,7 @@ categories: [Kafka]
 tags: [Kafka, Offset, Consumer]
 ---
 
-### Offset 이란?
+## Offset 이란?
 Partition 의 특정 Consumer 가 메세지를 읽어들인 위치를 나타냄.
 Consumer 가 메세지 수신 처리를 재개할 때 어떤 메세지 부터 가져 가야 하는 지 알 수 있음.
 ![](/assets/images/log_consumer.png)
