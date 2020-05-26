@@ -5,12 +5,12 @@ categories: [Kafka]
 tags: [Kafka, Offset, Consumer]
 ---
 
-# Offset 이란?
+## Offset 이란?
 Partition 의 특정 Consumer 가 메세지를 읽어들인 위치를 나타냄.
 Consumer 가 메세지 수신 처리를 재개할 때 어떤 메세지 부터 가져 가야 하는 지 알 수 있음.
 ![](/assets/images/log_consumer.png)
 
-# Offset Topic
+## Offset Topic
 Kafka 에는 Consumer 의 offset 을 저장 하는 topic 이 존재함. (v0.9 release)
 
 * __consumer_offsets
@@ -20,7 +20,7 @@ Kafka 에는 Consumer 의 offset 을 저장 하는 topic 이 존재함. (v0.9 re
   ```
 Consumer 가 Kafka에 현재까지 읽은 메세지의 offset 정보를 알려주는 것을 **commit** 이라 한다.
 
-# Offset Option
+## Offset Option
 * enable.auto.commit (default=true)
 	* 특정 주기 마다 자동으로 commit 하는 설정
 * auto.commit.interval.ms (default=5000ms)
@@ -48,7 +48,7 @@ Consumer 가 Kafka에 현재까지 읽은 메세지의 offset 정보를 알려�
         auto-commit-interval: 5000ms
   ```
 
-# Offset Commit
+## Offset Commit
 * Commit 방법
   * commitSync()
     ```java
@@ -138,7 +138,7 @@ public class KafkaConsumer {
 }
 ```
 
-# 리밸런싱 & 특정 offset 부터 읽기
+## 리밸런싱 & 특정 offset 부터 읽기
 * ConsumerRebalanceListener interface 구현
   * onPartitionsRevoked(Collection<TopicPartition> partitions)
     * 리밸런싱이 시작되기 전, 그리고 컨슈머가 메세지 소비를 중단한 후 호출
@@ -176,6 +176,6 @@ public class KafkaConsumer {
   * Rebalancing Listener : https://docs.spring.io/spring-kafka/reference/html/#rebalance-listeners
   * Seek : https://docs.spring.io/spring-kafka/reference/html/#seek
 
-# 참고
+## 참고
 * Spark Offset Management
 ![](/assets/images/Spark-Streaming-flow-for-offsets.png)
