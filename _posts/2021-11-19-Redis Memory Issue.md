@@ -17,4 +17,4 @@ tags: [REDIS]
    - Item 에 Save 발생시 Master, Slave 싱크를 위해 메모리를 복재 하여 사용함
    - 이 복재 과정에서 또다시 Save 발생시 메모리 과사용
 ### 해결
-
+   - 
