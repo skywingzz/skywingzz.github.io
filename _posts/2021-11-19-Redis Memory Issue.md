@@ -2,7 +2,7 @@
 title: Redis Memory Issue
 date: 2021-11-1 15:50:00 +0300
 categories: [REDIS]
-tags: [REDIS]
+tags: [REDIS,Memory]
 ---
 
 ## Redis Memory 이슈 해결
