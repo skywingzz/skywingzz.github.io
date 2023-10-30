@@ -1,7 +1,7 @@
 ---
 title: 캐나다 학생비자의 모든것
 date: 2023-10-30 18:17:00 +0300
-categories: [캐나다유학]
+categories: [Canada]
 tags: [캐나다유학, 어학연수, 캐나다학생비자]
 ---
 
