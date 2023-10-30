@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "6da1e13f82a0936f",
+    "type": "split",
+    "children": [
+      {
+        "id": "939a95fe6666e7b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba970d7ef5105b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2018-09-06-git-branch-name.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93d25a0d8c6186de",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b7522e0a8f890c13",
+    "type": "split",
+    "children": [
+      {
+        "id": "203c122f1188802b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "591300a733ee6591",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08ccf10c61037df2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af426d5981f8e31a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4fd1a8737e36f5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64089460e6a87f5b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false
+    }
+  },
+  "active": "93d25a0d8c6186de",
+  "lastOpenFiles": [
+    "무제 파일.md",
+    "2018-09-06-git-branch-name.md",
+    "2017-11-07-MAB.md",
+    "2020-04-09-kafka.md",
+    "2018-10-19-Selenium-web-test.md",
+    "2020-05-25-kafka offset.md",
+    "2021-11-19-Redis Memory Issue.md",
+    "2019-08-06-Feign-Client.md",
+    "2019-09-26-AWS Dev Day 2019.md",
+    "2017-10-11-anaconda.md",
+    "2016-05-23-docker-command.md"
+  ]
+}

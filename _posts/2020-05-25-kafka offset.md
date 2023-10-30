@@ -8,7 +8,7 @@ tags: [Kafka, Offset, Consumer]
 ## Offset 이란?
 Partition 의 특정 Consumer 가 메세지를 읽어들인 위치를 나타냄.
 Consumer 가 메세지 수신 처리를 재개할 때 어떤 메세지 부터 가져 가야 하는 지 알 수 있음.
-![](/assets/images/log_consumer.png)
+![](../assets/images/log_consumer.png)
 
 ## Offset Topic
 Kafka 에는 Consumer 의 offset 을 저장 하는 topic 이 존재함. (v0.9 release)
@@ -27,12 +27,12 @@ Consumer 가 Kafka에 현재까지 읽은 메세지의 offset 정보를 알려�
 	* 커밋 주기
 	* kafka 로 부터 메세지를 읽어 올때 이 주기와 맞으면 offset 정보를 commit 한다.
 * enable.auto.commit = false 일 경우 이 옵션은 무시된다.
-![](/assets/images/kafka_commit_1.png)
+![](../assets/images/kafka_commit_1.png)
 * auto commit 일 경우 장애 발생 타이밍에 따라 commit 된 메세지 처리가 완료 되지 않거나
   * 메세지 처리 누락 발생
 * 메세지 처리가 완료 되었지만 offset commit 이 이루어 지지 않은 경우가 발생 할 수 있음 
   * 동일 메세지 중복 처리
-![](/assets/images/kafka_commit_2.png)
+![](../assets/images/kafka_commit_2.png)
 * auto.offset.reset
   * Consumer 의 offset  commit 정보가 존재 않거나 해당 offset 이 유효하지 않을 경우
     * latest : 가장 새로운(마지막) offset부터 (Default)
@@ -168,7 +168,6 @@ public class KafkaConsumer {
         }
     }
 
-
     // Consumer
     consumer.subscribe(topics, SaveOffsetsOnRebalance);
     ```
@@ -178,4 +177,4 @@ public class KafkaConsumer {
 
 ## 참고
 * Spark Offset Management
-![](/assets/images/Spark-Streaming-flow-for-offsets.png)
+![](../assets/images/Spark-Streaming-flow-for-offsets.png)

@@ -41,8 +41,9 @@ tags: [mobile, debugging, Weinre, fiddler, charles]
 
 ## Weinre
 nodejs 기반의 디버깅 툴로서 내장 디버깅 툴이 없는 모바일 브라우저를 위한 원격 디버팅 툴 로서 Webkit 계열의 개발자 도구인 Web Inspector 를 사용할수 있도록 해준다. 
+- 설치 & 다운로드 : https://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
 
-## Proxy 서버를 통한 디버깅
+## Proxy 서버를 통한 디버깅 
 개인 PC 에 프록시 서버를 두고 단말기에서 이 프록시 서버를 통해 통신함으로서 단말기가 주고 받는 데이터를 모니터링
 - Charles(Mac) 사용법
 	1. PC Proxy 서버 셋팅
